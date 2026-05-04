@@ -1,0 +1,111 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2, h3 {
+  font-family: "VT323", monospace;;
+  font-size: 40px;
+  color: #e9c46a;
+}
+
+h1, h2, .about {
+  text-align: center;
+}
+
+body {
+  font-family: "VT323", monospace;
+  margin: 0;
+  background-color: #264653;
+  color: #2a9d8f;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: #264653;
+  padding: 20px;
+  text-align: center;
+  background-image: url(images/cool_controller.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.released_games {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.released_game {
+  width: 30%;
+}
+
+.box {
+  height: 450px;
+  border: 2px solid #264653;
+  margin-top: 10px;
+  background-color: #2a9d8f;
+  color: #264653;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: bold;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small_box {
+  height:200px;
+  border: 2px solid #264653;
+  margin-top: 10px;
+  background-color: #e9c46a;
+  color: #2a9d8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+  background-color: #2a9d8f;
+  color: #264653;
+  margin: 20px 0;
+}
+p {
+  font-size: 20px;
+}
+.upcoming_games_list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  font-family: "VT323", monospace;
+  background-color: #2a9d8f;
+  color: #264653;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}

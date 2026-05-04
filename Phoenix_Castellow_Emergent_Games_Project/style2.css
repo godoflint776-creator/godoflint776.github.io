@@ -1,0 +1,68 @@
+body {
+  font-family: "VT323", monospace;
+  margin: 0;
+  background-color: #264653;
+  color: #2a9d8f;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: #264653;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "VT323", monospace;
+  font-size: 40px;
+  color: #e9c46a;
+  margin: 0;
+}
+
+.game-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+/* TEXT SIDE */
+.game-info {
+  width: 50%;
+  text-align: left;
+}
+
+.game-info p {
+  font-size: 20px;
+}
+
+/* IMAGE SIDE */
+.game-image {
+  width: 40%;
+}
+
+.game-image img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #264653;
+}
+
+footer {
+  background-color: #2a9d8f;
+  color: #264653;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #264653;
+  text-decoration: none;
+  font-weight: bold;
+}
